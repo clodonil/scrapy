@@ -81,7 +81,7 @@ class Scrapy:
 
 
 if __name__ == "__main__":
-     url="http://www.medparc.com.br"
+     url="http://dominio"
      site_connect = Scrapy()
      links = site_connect.run(url)
      cont = 1
